@@ -8,41 +8,62 @@
         android:orientation="vertical"
         xmlns:android="http://schemas.android.com/apk/res/android">
         <EditText
+            android:id="@+id/id"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/pid"
             android:layout_margin="10dp"
             android:hint="Patient id"
             android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:id="@+id/pname"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/pname"
             android:layout_margin="10dp"
             android:hint="Patient Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:id="@+id/psymptoms"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/psymptoms"
             android:layout_margin="10dp"
             android:hint="Symptoms"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:id="@+id/page"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/page"
             android:layout_margin="10dp"
             android:hint="Age"
             android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:id="@+id/pmedicine"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/pmedicine"
             android:layout_margin="10dp"
             android:hint="Medicine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:id="@+id/docname"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/pdname"
             android:layout_margin="10dp"
             android:hint="Doctor's Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <androidx.appcompat.widget.AppCompatButton
+            android:onClick="mybtnclick"
             android:text="Submit"
+            android:textSize="20dp"
+
             android:layout_margin="10dp"
-            android:background="#00aabb"
+            android:background="@drawable/buttonstyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
